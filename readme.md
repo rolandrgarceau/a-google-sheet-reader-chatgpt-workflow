@@ -12,9 +12,21 @@ If one is not interested in how discovery happens in modern development, follow 
 
 06b-current-state-overview's first paragraph is a good summary for all the just probing around done before actually installing helpful utilities for interacting with Google.
 
+The prefix 1-sheets-api.md starts my process of exploring the API itself.
+
 ### Sheets API
 
 The Sheets API offers a [5 step to get started](https://developers.google.com/workspace/guides/get-started) too. There is specifics for authentication and authorization for Google Workspace APIs, found [here](https://developers.google.com/workspace/guides/auth-overview), and may not pertain to other Google APIs. Follow their 9 step process for Workspaces specifics.
+
+#### Pin Workspaces to console.cloud.google.com navigation
+
+From navigation menu choose 'view all products' > 'Other Google Products' > and click pin the 'Workspaces'.
+
+If we click into the Workspaces navigation we should see at the very top a current project that is selected, and the relative API's that are enabled for  that project.
+
+In the credentials section we should see the enabled credentials that may be used for programmatic access. It should contain a client ID and secret which will be needed to obtain a short lived access token (there are other possibilities here) to be able to access a sheet with.
+
+### Other Client API's 
 
 There exists a `google-api-python-client` that encompasses all of the individual APIs from Google, and the install is larger than 50 MB. Each individual API often has teams that handle a more specific implementation for that API. We may find this useful when moving towards encompassing the whole CRM with GeoPandas and such visualizations and 3D plotting with cartopy.
 
@@ -69,7 +81,7 @@ and [the browser interface for API](https://developers.google.com/apis-explorer/
 
 #### ChatGPT start
 
-Everything below this paragraph is from ChatGPT- and it doesn't work! It is a good kickoff to get one's mind brought back up to speed without help from a human. I thought maybe I could try it out and see for myself just what state their learning model is at currently. 
+Everything below addresses a ChatGPT approach- and it doesn't work! It is a good kickoff to get one's mind brought back up to speed without help from a human. I thought maybe I could try it out and see for myself just what state their learning model is at currently. 
 
 Like most occasions, security through obscurity prevails inadvertently. When the herds are steered through the gates, we see nothing for our offline use case- including human call in support. Sale teams only can sell compute instances, and paid subscriptions to talk to SRE's won't get us there either. They are trained with the same mechanism. They just don't know how to do it, or are trained specifically not to spill beans. Documentation also fails to stay up to date by itself- that too is soon to change with AI I believe- as teams focus on outcomes with key results.
 
