@@ -20,7 +20,11 @@ It is not clear if this process was sufficient to use in a python script to atta
 
 Output of the init also mentioned a .boto configuration file was created and to check storage configuration for Google Cloud. It may be worth noting what the boto3 core configuration file is for AWS so we do not have conflicts moving forward.
 
-Speaking of AWS, if we need to access resources from a workload that runs outside of Google Cloud, such as on Amazon Web Services (AWS) or Microsoft Azure, consider using workload identity federation instead of service account keys. Federation lets your workloads access resources directly, using a short-lived access token, and eliminates the maintenance and security burden associated with service account keys.
+Speaking of AWS, if we need to access resources from a workload that runs outside of Google Cloud, such as on Amazon Web Services (AWS) or Microsoft Azure, consider using workload identity federation instead of service account keys. 
+
+#### Federated option worth mentioning
+
+Federation lets your workloads access resources directly, using a short-lived access token, and eliminates the maintenance and security burden associated with service account keys.
 
 ### Auth from a bigger picture
 
@@ -50,7 +54,7 @@ The browser means to enable service accounts start at the iam-admin page selecti
 
 There is a separate page to follow to [create a service account key](https://cloud.google.com/iam/docs/creating-managing-service-account-keys#creating). The script 06c_creste_service_account_key.py may have encountered a silent fail due to not having the IAM API enabled yet.
 
-Create and manage service account keys
+[Create and manage service account keys](https://cloud.google.com/iam/docs/creating-managing-service-account-keys)
 
 #### Other helpful commands
 

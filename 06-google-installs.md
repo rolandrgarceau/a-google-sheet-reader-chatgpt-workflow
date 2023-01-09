@@ -1,6 +1,6 @@
 ### Installs
 
-Which one do we do first?
+Which one do we do first? Well we need a CLI for Google. Maybe it will work for Workspaces too.
 
 Don't jump the gun until we know what installs what today. Phone a friend. Call 844-613-7589 and only use it for business use. Personal use is not here. Tech support will kick you out. Upgrade account will get us to sales, and Nelson might tell you we sell servers in the cloud, and good luck at your offline mode development. 
 
@@ -59,3 +59,5 @@ gcloud init
 But mine looked like it already had picked up my account info. See the 06a-gcloud-init.md for more info on the gcp settings.
 
 ### [Python Cloud Client Libraries](https://cloud.google.com/python/docs/reference)
+
+We are getting closer.

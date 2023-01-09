@@ -2,7 +2,7 @@
 
 Platform engineering uses a product approach. This enables the right amount of developer self-service and balances the right level of abstraction for individual organizations within teams. To be successful it combines user research, regular feedback and marketing best practices to better understand developers, create a platform that solves common problems and get internal buy-in from key stakeholders.
 
-Is DevOops dead? People need good vision, proper planning within IT structure, and implementation strategies that complement business objectives. Life in the day of chronic fatigue of scope with a DevOps Professional could be as time consuming as understanding this repo. How long would it take your staff to get past this hurdle? Chances are a seasoned PM would be screaming about a 1099 for a SRE. 
+Is DevOops dead? People need good vision, proper planning within IT structure, and implementation strategies that complement business objectives. Life in the day with chronic fatigue of scope which a DevOps Professional might experience, could be as time consuming as understanding this repo. How long would it take your staff to get past this hurdle? Chances are a seasoned PM would be screaming about a 1099 for a SRE. 
 
 This directory exists from an initial probe test of ChatGPT to see if AI could fast track an authentication workflow for downloading a Google Sheet from Drive. Theres still a lot of learning to be had on both fronts.
 

@@ -58,3 +58,7 @@ These 3 can automatically obtain external credentials, and use these credentials
 - Which service account to impersonate
 
 unlike a service account key, a credential configuration file doesn't contain a private key and doesn't need to be kept confidential. Details about the credential configuration file are available at https://google.aip.dev/auth/4117.
+
+#### Conclusion
+
+Yet again, not all necessary for Workspaces API integration, but worth a once over just to re-familiarize with key concepts.
