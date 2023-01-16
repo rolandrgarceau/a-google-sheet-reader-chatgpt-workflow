@@ -1,3 +1,11 @@
+### Python Quickstart [here]()
+
+Get a working basic script first, then modify for short lived expiries.
+
+### [OAuth client ID Credentials](https://developers.google.com/workspace/guides/create-credentials#desktop-app)
+
+Apps running on multiple platforms need a separate client ID for each platform. The test2.py file flow is for desktop applications, and credentials will need to be created for this workflow. 
+
 ### Sheets API exploration
 
 If allowing Google APIs Explorer, we may wish to disable this feature in the future, as to not allow access to drive information.

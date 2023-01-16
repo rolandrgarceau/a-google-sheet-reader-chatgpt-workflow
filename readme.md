@@ -1,22 +1,36 @@
 ### A Google Sheets Reader in Python
 
+Here is an insight to the way one  might attack a problem of unknowns. The prefixing 0x-xxx is discovery. 1-xxx passes authentication, and 2-xxx should satisfy the functional requirements for the not so distributed monolith.
+
+#### Note on git and .gitignore
+
+Coming from a security perspective, after some time not using gitlab or other high level open source distributed code management and Version Control System, there are some very basic non-functional aspects of branching still not fixed within git itself- mainly in the use of 'main' and 'master' branches when defining and using init from a pre-existing directory not part of VC. 
+
+This should be noted that a git clone and other workflows are to be used when building pipelines, especially with very specific policy in their creation and distribution aspects. One can 'git' down a rabbit hole very quickly here. 
+
+For security, I did not even write into the gitignore sensitive files to omit, as the priority is not on dissecting current git best practices, but to keep client information safe while still allowing outside observation.
+
+#### New School Minsets and jargon to contimplate
+
 Platform engineering uses a product approach. This enables the right amount of developer self-service and balances the right level of abstraction for individual organizations within teams. To be successful it combines user research, regular feedback and marketing best practices to better understand developers, create a platform that solves common problems and get internal buy-in from key stakeholders.
 
-Is DevOops dead? People need good vision, proper planning within IT structure, and implementation strategies that complement business objectives. Life in the day with chronic fatigue of scope which a DevOps Professional might experience, could be as time consuming as understanding this repo. How long would it take your staff to get past this hurdle? Chances are a seasoned PM would be screaming about a 1099 for a SRE. 
+I keep seeing the this recurring theme today (Q1 2023) Is DevOops dead? People need good vision, proper planning within IT structure, and implementation strategies that complement business objectives. Life in the day with chronic fatigue of scope which a DevOps Professional might experience, could be as time consuming as understanding this repo. How long would it take your staff to get past this hurdle? Chances are a seasoned PM would be screaming about a 1099 for a SRE. 
 
-This directory exists from an initial probe test of ChatGPT to see if AI could fast track an authentication workflow for downloading a Google Sheet from Drive. Theres still a lot of learning to be had on both fronts.
+Topics such as these are for seasoned pros, however most are given the responsibility of it all when they demonstrate the bare minimum to do scopes such as this. Programming is complicated, even when we use AI to forward the package.
+
+So, this directory also contains an initial probe test of ChatGPT to see if AI could fast track an authentication workflow for downloading a Google Sheet from Drive. Theres still a lot of learning to be had on both fronts.
 
 #### TL;DR:
 
-If one is not interested in how discovery happens in modern development, follow the 00 prefixed .md files for authentication, authorization, and eventual script to perform the "simple" duty of programmatically downloading a google sheet. 
+If one is not interested in how discovery might happen in modern development, skip the 0-xxx and everything below this line in this .md file, follow the 1-xxx, and 2-xxx prefixed files for authentication, authorization, and eventual script build to perform the "simple" duty of programmatically downloading a google sheet. 
 
 06b-current-state-overview's first paragraph is a good summary for all the just probing around done before actually installing helpful utilities for interacting with Google.
 
-The prefix 1-sheets-api.md starts my process of exploring the API itself.
+The prefix 1-sheets-api.md starts my process of exploring the API itself after the python quickstart. That documentation mysteriously made itself available the day stackoverflow posted a response to an inquiry regarding current 403's encountered with OAuth and .credentials for obtaining short lived tokens to Access the sheets API.
 
-### Sheets API
+### Discovery for Sheets API
 
-The Sheets API offers a [5 step to get started](https://developers.google.com/workspace/guides/get-started) too. There is specifics for authentication and authorization for Google Workspace APIs, found [here](https://developers.google.com/workspace/guides/auth-overview), and may not pertain to other Google APIs. Follow their 9 step process for Workspaces specifics.
+The Sheets API offers a [5 step to get started](https://developers.google.com/workspace/guides/get-started) too, worthy of a read in context of what is required at a high level for authentication options. Specifics to functional  requirement completion at this latest update revolve around desktop authentication. More on authentication and authorization for Google Workspace APIs, found [here](https://developers.google.com/workspace/guides/auth-overview) may not pertain to other Google APIs. Follow their 9 step process for Workspaces specifics.
 
 #### Pin Workspaces to console.cloud.google.com navigation
 
