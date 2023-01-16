@@ -4,11 +4,11 @@ Here is an insight to the way one might attack a problem of unknowns. The prefix
 
 #### Note on git and .gitignore
 
-Coming from a security perspective, after some time not using gitlab or other high level open source distributed code management and Version Control System, there are some very basic non-functional aspects of branching still not fixed within git itself- mainly in the use of 'main' and 'master' branches when defining and using init from a pre-existing directory not part of VC. 
+Coming from a security perspective, after some time not using gitlab or other high level open source distributed code management and Version Control System, to design with security in mind there are some very basic non-functional aspects of branching still not fixed within git itself- mainly in the use of keywords 'main' and 'master' branches when defining and using init from a pre-existing directory not part of VC. 
 
 This should be noted that a git clone and other workflows are to be used when building pipelines, especially with very specific policy in their creation and distribution aspects. One can 'git' down a rabbit hole very quickly here. 
 
-For security, I did not even write into the gitignore sensitive files to omit, as the priority is not on dissecting current git best practices, but to keep client information safe while still allowing outside observation.
+For security, I did not even write into the gitignore sensitive files to omit, as the priority is not on dissecting current git best practices, but to keep client information safe while still allowing outside observation. Files will be pushed from a private location on a need to know Zero Trust basis ;)
 
 #### New School Mindsets and jargon to contemplate
 
