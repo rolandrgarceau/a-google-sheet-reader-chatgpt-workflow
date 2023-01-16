@@ -1,6 +1,6 @@
 ### A Google Sheets Reader in Python
 
-Here is an insight to the way one  might attack a problem of unknowns. The prefixing 0x-xxx is discovery. 1-xxx passes authentication, and 2-xxx should satisfy the functional requirements for the not so distributed monolith.
+Here is an insight to the way one might attack a problem of unknowns. The prefixing 0x-xxx is discovery. 1-xxx passes authentication, and 2-xxx should satisfy the functional requirements for the not so distributed monolith we are building in real life.
 
 #### Note on git and .gitignore
 
