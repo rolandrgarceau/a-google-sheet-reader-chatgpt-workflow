@@ -26,7 +26,7 @@ If one is not interested in how discovery might happen in modern development, sk
 
 06b-current-state-overview's first paragraph is a good summary for all the just probing around done before actually installing helpful utilities for interacting with Google.
 
-The prefix 1-sheets-api.md starts my process of exploring the API itself after the python quickstart. That documentation mysteriously made itself available the day stackoverflow posted a response to an inquiry regarding current 403's encountered with OAuth and .credentials for obtaining short lived tokens to Access the sheets API.
+The prefix 1-sheets-api.md starts my process of exploring the API itself after the python quickstart. That documentation mysteriously made itself available the day stackoverflow posted a response to an inquiry regarding current 403's encountered with OAuth and .credentials for obtaining short lived tokens to Access the sheets API. One might argue that people know how to get ahead of themselves quickly. It's not the first time I've had to handle the documentation abyss... don't Zero Trust me.
 
 ### Discovery for Sheets API
 
