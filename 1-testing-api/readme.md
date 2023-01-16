@@ -16,4 +16,6 @@ It may be archaic to try and do this on the fly, but there are libraries that wi
 
 1-xxx is the authentication and retrieval step, so we still need to define in step 2-xxx the way in which we use the data.
 
-End case is to transform addresses to coordinates. So the next logical step is to feed another service some cell information that 
+End case success is measured byt the ability to transform addresses to coordinates. So the next logical step is to feed another service some cell information that will do the conversion to GPS coordinates, capture them in another location, and then use them to run a jupyter lab .ipynb file for mapping customers for marketing purposes 
+
+It may possibly help the business CRM by adding a hidden column/field with these coordinates and populating them into the intake form for future development. How will the team handle this feature?

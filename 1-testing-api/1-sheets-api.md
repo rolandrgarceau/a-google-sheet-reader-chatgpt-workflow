@@ -1,12 +1,19 @@
-### Python Quickstart [here]()
+### Python Quickstart [here](https://developers.google.com/sheets/api/quickstart/python)
 
 Get a working basic script first, then modify for short lived expiries.
+
+### Stack Overflow [Question](https://stackoverflow.com/questions/75084380/how-do-i-resolve-a-403-for-accessing-sheets-api-via-python)
+Analyst [Giselle Valladares](https://stackoverflow.com/users/17390145/giselle-valladares) has posted answers on topics for Workspaces. 
 
 ### [OAuth client ID Credentials](https://developers.google.com/workspace/guides/create-credentials#desktop-app)
 
 Apps running on multiple platforms need a separate client ID for each platform. The test2.py file flow is for desktop applications, and credentials will need to be created for this workflow. 
 
+
+
 ### Sheets API exploration
+
+- The following did not initially work, but has notably hit the required basics similar to an AWS flow.
 
 If allowing Google APIs Explorer, we may wish to disable this feature in the future, as to not allow access to drive information.
 
