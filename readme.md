@@ -10,7 +10,7 @@ This should be noted that a git clone and other workflows are to be used when bu
 
 For security, I did not even write into the gitignore sensitive files to omit, as the priority is not on dissecting current git best practices, but to keep client information safe while still allowing outside observation.
 
-#### New School Minsets and jargon to contimplate
+#### New School Mindsets and jargon to contemplate
 
 Platform engineering uses a product approach. This enables the right amount of developer self-service and balances the right level of abstraction for individual organizations within teams. To be successful it combines user research, regular feedback and marketing best practices to better understand developers, create a platform that solves common problems and get internal buy-in from key stakeholders.
 
